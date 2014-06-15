@@ -78,7 +78,7 @@ Note: when reviewing the fix, just notice that this does not happen with all web
 The fix
 -------
 
-The fix is very simple and is done on [this node-phantom fork](https://github.com/apdmatos/node-phantom)
+The fix is very simple and is done on this [node-phantom fork](https://github.com/apdmatos/node-phantom)
 
 Basically, the connection upgrade must be transparent to the user, and the callback function must not be executed twice.
 
@@ -98,5 +98,5 @@ Updated when the connection callback is executed, and we only call the phantom c
 Pull request
 ------------
 
-The fix is done on this [repository](https://github.com/apdmatos/node-phantom) and the code has been pull requested
+The fix is done on this [repository](https://github.com/apdmatos/node-phantom) and the code has been [pull requested](https://github.com/alexscheelmeyer/node-phantom/pull/103)
 
